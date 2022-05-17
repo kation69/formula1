@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'DM Sans', sans-serif;
+	margin:0;
+	background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+	background: url('https://p4.wallpaperbetter.com/wallpaper/907/797/294/blurred-car-circuits-ferrari-f1-wallpaper-preview.jpg') no-repeat center center fixed;
+	background-size: cover;  
+}
+
+#headerJumbo {
+	background-color: #f3f6fd;
+}
+
+.hideElement {
+	display: none
+}
+img.image_peque{
+	max-height:100px;
+}
+
+.vertical-center {
+	min-height: 13%;
+	min-height: 13vh;
+	display: flex;
+	align-items: center;
+}
+
+#publicTab {
+	min-height: 20%;
+	min-height: 20vh;
+	display: flex;
+	align-items: center;
+}
+
+div.custom-file{
+	margin-top:3px;
+}
+
+div.custom-file div{
+	margin-top:3px;
+	text-align:center;
+}
+
+#imagenCargar {
+	background-color: #fff;
+	position: absolute;
+	margin-bottom: 50px;
+	max-width: calc(10em);
+}
+
+#imagenCargar:hover {
+	transform: scale(4);
+}
+
+.buttonDiv {
+	border-radius: 20px;
+	border: 1px black;
+	border-style: groove;
+}
+
+.buttonDiv {
+	appearance: none;
+	background-color: transparent;
+	border: 2px solid #1A1A1A;
+	border-radius: 15px;
+	box-sizing: border-box;
+	color: #3B3B3B;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+	margin: 0;
+	min-height: 60px;
+	min-width: 0;
+	outline: none;
+	padding: 16px 24px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: 100%;
+	will-change: transform;
+}
+
+.buttonDiv:disabled {
+ 	pointer-events: none;
+}
+
+.buttonDiv:hover {
+	color: #fff;
+	background-color: #1A1A1A;
+	box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+	transform: translateY(-2px);
+}
+
+.buttonDiv:active {
+	box-shadow: 10px -10px teal;
+	transform: translateY(0);
+}
+
+.fas {
+	margin: 2px;	
+	cursor: pointer;
+}
+
+.fas.xl{
+	font-size: 25px;
+	margin: 3px;
+}
+
+.cardNoticias {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cardCircuitos {
+  background-color: #F0C929;
+  border-radius: 1rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sectionOne {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: -2px -4px 40px -14px rgb(0 0 0 / 25%);
+  /*box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);*/
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.navBarMain {
+	background-color: #EEEEEE;
+	border-radius: 0.5rem;
+}
+
+.sectionStyle {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 30px;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.list-group-item {
+	background-color: #FBE6C2;
+}
+
+.itemDraggable.hovering {
+  background: #b6d6fb;
+  border-color: #276cbc;
+}
+div.calendario_dia{
+	
+	background-color: #FBE6C2;
+	border: 2px solid #1A1A1A;
+	text-align: center;
+}
+
+.iconBar {
+  padding-left: 0px;
+  background-color: #303030;
+}
+
+.iconBar li {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.iconBar li:hover {
+  background-color: #006346;
+}
+
+.activeIconBar {
+  background-color: #008c62;
+}
+
+.iconBar.returnAdminBtn li:hover {
+  background-color: #fff;
+}
+
+.returnAdminBtn {
+	background-color: #dc3545;
+}
+div.form-image{
+	height:120px;
+}

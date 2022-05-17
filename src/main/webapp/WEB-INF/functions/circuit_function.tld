@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib 
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+
+    <display-name>Functions circuits</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>circuits</short-name>
+    <uri>helpers</uri>
+
+    <function>
+        <name>sortByFecha</name>
+        <function-class>helpers.CircuitSort</function-class>
+        <function-signature>java.util.List sortByFecha(java.util.List)</function-signature>
+    </function>
+    <function>
+        <name>WithOutFecha</name>
+        <function-class>helpers.CircuitSort</function-class>
+        <function-signature>java.util.List WithOutFecha(java.util.List)</function-signature>
+    </function>
+    
+    <function>
+        <name>datos_calendario</name>
+        <function-class>helpers.CircuitSort</function-class>
+        <function-signature>helpers.DatosCalendario datos_calendario(java.lang.Integer,java.lang.Integer)</function-signature>
+    </function>
+</taglib>

@@ -1,0 +1,107 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wizard-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: $border-radius-size + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.wizard-card__image {
+  position: relative;
+  height: 239px;
+  margin-bottom: 45px;
+  border-top-left-radius: $border-radius-size;
+  border-top-right-radius: $border-radius-size;
+}
+
+.wizard-card__image--bg {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
+}
+
+.wizard-card__image--bg img {
+  width: 280px;
+  position: absolute;    
+  top: 0px;
+  left: 17px;
+}
+rcher-bg.jpg');
+  img {
+    width: 400px;
+    position: absolute;    
+    top: -34px;
+    left: -37px;
+  }
+}
+
+.wizard-card__level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.wizard-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.wizard-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}
+
+#toastPortal {
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.toast-header-alert-success {
+	color: #fff;
+	background-color: green;
+}
+.toast-header-alert-danger {
+	color: #fff;
+	background-color: red;
+}
