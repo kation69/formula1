@@ -36,7 +36,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   	<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
   	
   	<!-- Versión global del framework de Spring -->
-  	<spring.framework.version>5.3.11</spring.framework.version> 
+  	<spring.framework.version>5.3.27</spring.framework.version> 
   </properties>
   
   <dependencies>
