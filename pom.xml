@@ -93,7 +93,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<dependency>
 	    <groupId>org.hibernate.validator</groupId>
 	    <artifactId>hibernate-validator</artifactId>
-	    <version>6.0.14.Final</version>
+	    <version>6.2.0.Final</version>
 	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
